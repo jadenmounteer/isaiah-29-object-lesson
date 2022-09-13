@@ -1,0 +1,121 @@
+html {
+    background-color: #f5f8fac7;
+}
+
+.rectangle {
+    height: 100px;
+    width: 200px;
+    background-color: #F5D1A9;
+    border: 1px solid black;
+}
+
+.key {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+}
+
+.nail {
+    height: 12px;
+    width: 12px;
+    background-color: #555;
+    border-radius: 50%;
+    position: relative;
+}
+
+.bible {
+    left: -308px;
+    top: 39px;
+}
+
+.book-of-mormon {
+    left: -266px;
+    top: 39px;
+    display: none;
+}
+
+
+
+.moving-rectangle {
+    animation: swivel;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+.rectangle-div {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 188px;
+}
+
+#to-move {
+    position: relative;
+    left: -202px;
+}
+
+@keyframes swivel {
+    from {transform: rotate(0deg);}
+  to {transform: rotate(100deg);}
+}
+
+.trigger-restoration-button:hover {
+  background-color: #52bd55;
+  transition: 0.3s;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1.5em;
+  }
+
+.button-div {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.grayed-out {
+    background-color: gray;
+}
+
+.trigger-restoration-button{
+    background-color: #4CAF50;
+}
+
+
+.trigger-apostasy-button {
+    background-color: rgba(255, 0, 0, 0.854);
+}
+
+.trigger-apostasy-button:hover {
+    background-color: rgba(255, 0, 0, 0.757);
+}
+
+.active {
+    background-color: rgba(147, 145, 145, 0.921) !important;
+}
+
+.book-of-mormon-text {
+    font-weight: bold;
+    display: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
